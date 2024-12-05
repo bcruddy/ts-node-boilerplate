@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "preserveConstEnums": true,
+        "outDir": "build",
+        "baseUrl": ".",
+        "paths": {
+            // fix this
+            "@/*": ["src/*"]
+        },
+        "target": "es2020",
+        "rootDir": "src",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "module": "nodenext",
+        "moduleResolution": "nodenext"
+    },
+    "include": ["src/**/*"],
+    "exclude": ["**/*.spec.ts"]
+}
